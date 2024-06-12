@@ -32,7 +32,6 @@ export default function NavAppBar() {
       <AppBar color="transparent" position="static" elevation={0}>
         <Container maxWidth="lg">
           <Toolbar>
-            <Settings />
           </Toolbar>
         </Container>
       </AppBar>

@@ -981,12 +981,6 @@ export default function DecryptionPanel() {
                 </Alert>
               )}
             </div>
-
-            {!badFile && !oldVersion && !fileMixUp && (
-              <Typography className={classes.offline}>
-                {t("offline_note")}
-              </Typography>
-            )}
           </StepContent>
         </Step>
 
